@@ -197,16 +197,27 @@ a:focus {
     }
 
     h1 {
-        font-size: 58px;
-        line-height: 64px;
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    h2 {
+        font-size: 21px;
+        line-height: 24px;
     }
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    font-size: 52px;
+    line-height: 64px;
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    font-size: 58px;
+    line-height: 72px;
+}
 
 /*
     Print styles.
